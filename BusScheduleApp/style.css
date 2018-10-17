@@ -1,0 +1,183 @@
+#navbar {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #000;
+	z-index: 2;
+}
+
+#navbar a { 
+	float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}  
+ 
+#navbar a:hover { 
+	color: #000; 
+	background: #fff;
+	
+}
+
+body {
+  font-family: Florence, cursive;
+  margin: 0;
+}
+
+#video-content {
+	text-align: center;
+	height: 600px;
+  position: relative;
+  color: white;
+}
+
+#video-content video {
+  position: absolute;
+  min-height: 100%;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -99;
+}
+
+#video-content h1{
+	margin-top: 105px;
+ 	font-size: 3em; 
+}
+
+#letter {
+  color: red;
+}
+
+#homep {
+  font-size: large;
+  margin: -15px;
+}
+
+#schedule {
+	height: 700px;
+  padding: 20px;
+  color: red;
+  font-size: 2em;
+  background: url('images/bus.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.button {
+  padding: 20px 30px;
+  font-size: 24px;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: red;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px white;
+}
+
+input[name="bogdana"] {
+  position: relative;
+  right: 400px;
+}
+
+#sbutton {
+  position: relative;
+  left: 0.01mm;
+  bottom: 67px;
+}
+
+.button:hover {background-color: #ff6666}
+
+.button:active {
+  background-color: #ff6666;
+  box-shadow: 0 5px grey;
+  transform: translateY(4px);
+}
+
+#res {
+  background-color: darkgrey;
+  width: 300px;
+  border: 10px solid black;
+  border-radius: 20px;
+  padding: 40px;
+  margin-left: 150px;
+}
+
+#content {
+  height: 700px;
+  padding: 50px;
+  color: white;
+  font-size: 2em;
+  background: url('images/square.jpg') no-repeat center center;
+  background-size: cover; 
+}
+
+.container { 
+	padding: 65px;
+	margin-top: 0;
+	height: 500px;
+	background: black; 
+}
+
+#text {
+  font-size: large;
+	color: red;
+	text-align: center;
+}
+
+form { 
+	max-width:420px;
+	margin: auto; 
+}
+
+
+.feedback-input {
+  color:white;
+  font-family: Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid red;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+#footer {
+	width: 100%;
+  height: 250px;
+  margin-bottom: 0px;
+  background: #111;
+  
+  
+}
+
+#footer p{
+    color: #696969;
+    column-count: 2;
+    column-gap: 50px;
+    font-size: 1em;
+    font-weight: 300;
+}
+
+.content{
+  width: 850px; 
+  margin: auto;
+  padding: 50px 0;
+}
+
+.hr {
+	width: 100%;
+	height: 70px;
+	background-color: black;
+}
