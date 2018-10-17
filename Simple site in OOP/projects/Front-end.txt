@@ -1,0 +1,2 @@
+Front-end
+Hi all. We have designed 6 page templates for a corporate web site. Templates are: Homepage, products list, product detail and 3 content pages (about us, a contact form and contact page). Designs are in Sketch format. I need those to be written in HTML, CSS and JS.  Desktop designs are ready. We will need those in a responsive format. We would rather have you create the responsive layouts during programming according to desktop design.  We will later integrate those pages to our CMS ourselves. We don't expect this step from you.
